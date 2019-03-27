@@ -36,6 +36,13 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
+
+  gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
+  gem 'factory_bot_rails', '~> 5.0', '>= 5.0.1'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
+  gem 'headless', '~> 2.3', '>= 2.3.1'
+  gem 'poltergeist', '~> 1.18', '>= 1.18.1'
+  gem 'database_cleaner', '~> 1.7'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
