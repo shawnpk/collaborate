@@ -20,6 +20,7 @@ gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap_form', '~> 4.2'
+gem 'geckodriver-helper', '~> 0.23.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -41,7 +42,8 @@ group :test do
   gem 'factory_bot_rails', '~> 5.0', '>= 5.0.1'
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
   gem 'headless', '~> 2.3', '>= 2.3.1'
-  gem 'poltergeist', '~> 1.18', '>= 1.18.1'
+  # gem 'poltergeist', '~> 1.18', '>= 1.18.1'
+  # gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'database_cleaner', '~> 1.7'
 end
 
