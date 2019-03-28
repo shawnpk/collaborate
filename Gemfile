@@ -21,6 +21,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap_form', '~> 4.2'
 gem 'geckodriver-helper', '~> 0.23.0'
+gem 'faker', '~> 1.9', '>= 1.9.3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
