@@ -28,3 +28,14 @@
 .post-content {
   display: none;
 }
+
+.solid-color-mode,
+.border-color-mode {
+  .post-text {
+    text-align: center;
+  }
+}
+
+.border-color-mode {
+  background-color: white;
+}
